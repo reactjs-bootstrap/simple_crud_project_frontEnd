@@ -1,14 +1,11 @@
+import React from "react";
+import { Typography } from "antd";
+
 const Delete = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <h1>Delete Page Component</h1>
+    <div style={{ padding: "50px" }}>
+      <Typography.Title level={2}>Delete Page</Typography.Title>
+      <p>Functionality to delete items will go here.</p>
     </div>
   );
 };
